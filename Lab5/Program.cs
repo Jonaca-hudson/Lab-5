@@ -15,12 +15,8 @@ namespace GC_class916
                 input1 = Console.ReadLine();
                 input1 = input1.ToLower();
 
-                bool close = true;
-
                 if (input1 == "y")
                 {
-                    close = false;
-
                     Console.Write("How many sides should the dice have?");
                     string input2 = Console.ReadLine();
                     int.Parse(input2);
